@@ -43,7 +43,6 @@ PRODUCT_PACKAGES += \
     libopenvx \
     libwrappergps \
     sensors.sensorhub \
-    sound_trigger.primary.exynos9810 \
     libwvhidl \
     libswdap \
     libkeymaster_helper_vendor
