@@ -45,12 +45,6 @@ PRODUCT_PACKAGES += \
     libopenvx \
     libwrappergps \
     sensors.sensorhub \
-    libaudioeffectoffload \
-    audio.primary.exynos9810 \
-    sound_trigger.primary.exynos9810 \
-    lib_SamsungRec_06006 \
-    libaudioproxy \
-    librecordalive \
     libwvhidl \
     libswdap \
     libkeymaster_helper_vendor
