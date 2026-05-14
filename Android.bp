@@ -200,7 +200,6 @@ cc_prebuilt_library_shared {
                 "libxml2",
                 "libiva_android_hal",
                 "libhidlbase",
-                "android.frameworks.schedulerservice@1.0",
                 "libutilscallstack",
                 "libc++",
                 "libc",
@@ -220,7 +219,6 @@ cc_prebuilt_library_shared {
                 "libxml2",
                 "libiva_android_hal",
                 "libhidlbase",
-                "android.frameworks.schedulerservice@1.0",
                 "libutilscallstack",
                 "libc++",
                 "libc",
@@ -230,6 +228,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
@@ -297,7 +296,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib/sensors.sensorhub.so",
             ],
             shared_libs: [
-                "android.frameworks.schedulerservice@1.0",
                 "libcutils",
                 "liblog",
                 "libbase",
@@ -317,7 +315,6 @@ cc_prebuilt_library_shared {
                 "proprietary/vendor/lib64/sensors.sensorhub.so",
             ],
             shared_libs: [
-                "android.frameworks.schedulerservice@1.0",
                 "libcutils",
                 "liblog",
                 "libbase",
@@ -334,6 +331,7 @@ cc_prebuilt_library_shared {
         },
     },
     compile_multilib: "both",
+    check_elf_files: false,
     prefer: true,
     soc_specific: true,
 }
