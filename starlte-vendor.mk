@@ -13,6 +13,8 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000059.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000059.tlbin \
     vendor/samsung/starlte/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/starlte/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
+    vendor/samsung/starlte/proprietary/vendor/etc/nfc/BRI/sec_s3nrn82_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/BRI/sec_s3nrn82_rfreg.bin \
+    vendor/samsung/starlte/proprietary/vendor/etc/nfc/sec_s3nrn82_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nrn82_rfreg.bin \
     vendor/samsung/starlte/proprietary/vendor/etc/seccomp_policy/mediacodec.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     vendor/samsung/starlte/proprietary/vendor/firmware/APBargeIn_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBargeIn_AUDIO_SLSI.bin \
     vendor/samsung/starlte/proprietary/vendor/firmware/APBiBF_AUDIO_SLSI.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/APBiBF_AUDIO_SLSI.bin \
