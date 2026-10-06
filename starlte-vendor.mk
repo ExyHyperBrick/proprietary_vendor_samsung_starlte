@@ -11,6 +11,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/starlte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000002e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000002e.tlbin \
     vendor/samsung/starlte/proprietary/vendor/app/mcRegistry/ffffffff00000000000000000000003e.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff00000000000000000000003e.tlbin \
     vendor/samsung/starlte/proprietary/vendor/app/mcRegistry/ffffffff000000000000000000000059.tlbin:$(TARGET_COPY_OUT_VENDOR)/app/mcRegistry/ffffffff000000000000000000000059.tlbin \
+    vendor/samsung/starlte/proprietary/vendor/etc/SoundBoosterParam.txt:$(TARGET_COPY_OUT_VENDOR)/etc/SoundBoosterParam.txt \
     vendor/samsung/starlte/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/starlte/proprietary/vendor/etc/floating_feature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/floating_feature.xml \
     vendor/samsung/starlte/proprietary/vendor/etc/nfc/BRI/sec_s3nrn82_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/BRI/sec_s3nrn82_rfreg.bin \
@@ -40,6 +41,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     camera.exynos9810 \
+    exynos9810_soundbooster_dsp \
     libexynoscamera3 \
     libhifistill \
     libopenvx \

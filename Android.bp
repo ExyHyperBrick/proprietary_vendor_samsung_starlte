@@ -62,6 +62,42 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "exynos9810_soundbooster_dsp",
+    stem: "lib_SoundBooster_ver900",
+    owner: "samsung",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/lib_SoundBooster_ver900.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "libcompiler_rt",
+                "libc",
+                "libm",
+                "libdl",
+                "liblog",
+            ],
+        },
+        android_arm64: {
+            srcs: [
+                "proprietary/vendor/lib64/lib_SoundBooster_ver900.so",
+            ],
+            shared_libs: [
+                "libc++",
+                "liblog",
+            ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libexynoscamera3",
     owner: "samsung",
     strip: {
